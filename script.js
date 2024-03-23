@@ -20,7 +20,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №4',
-                imageSrc: './assets/track/13.JPG'
+                imageSrc: '/assets/track/13.JPG'
             }
 
         },
@@ -31,7 +31,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №2',
-                balloonContentBody: '</p><img src="./assets/track/4.JPG" alt="image1" style="width: 100%; height: 100%;">'
+                 imageSrc: '/assets/track/4.JPG'
             }
 
         },
@@ -42,7 +42,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №1',
-                imageSrc: './assets/track/3.JPG'
+                imageSrc: '/assets/track/3.JPG'
             }
         },
         {
@@ -52,7 +52,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №5',
-                imageSrc: './assets/track/10.JPG'
+                imageSrc: '/assets/track/10.JPG'
             }
         },
         //     Старая Тэмь
@@ -63,7 +63,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Тэминцы',
-                imageSrc: './assets/old_them/theminc.JPG'
+                imageSrc: '/assets/old_them/theminc.JPG'
             }
         },
         {
@@ -73,7 +73,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Жители Старой Тэми',
-                imageSrc: './assets/old_them/citizens.JPG'
+                imageSrc: '/assets/old_them/citizens.JPG'
             }
         },
         {
@@ -83,7 +83,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Сельские жители',
-                imageSrc: './assets/old_them/villages.JPG'
+                imageSrc: '/assets/old_them/villages.JPG'
             }
         },
         {
@@ -93,7 +93,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Первая машина',
-                imageSrc: './assets/old_them/firstmachine.JPG'
+                imageSrc: '/assets/old_them/firstmachine.JPG'
             }
         },
         {
@@ -103,7 +103,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Медицинский пункт',
-                imageSrc: './assets/old_them/medicine.JPG'
+                imageSrc: '/assets/old_them/medicine.JPG'
             }
         },
         {
@@ -113,7 +113,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Школа в Старой Тэми',
-                imageSrc: './assets/old_them/school.JPG'
+                imageSrc: '/assets/old_them/school.JPG'
             }
         },
         {
@@ -123,7 +123,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Из жизни села',
-                imageSrc: './assets/old_them/lifeThem.JPG'
+                imageSrc: '/assets/old_them/lifeThem.JPG'
             }
         },
         {
@@ -133,7 +133,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Дом в Старой Тэми',
-                imageSrc: './assets/old_them/house_oldThem.JPG'
+                imageSrc: '/assets/old_them/house_oldThem.JPG'
             }
         },
         {
@@ -143,7 +143,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Начало Старой Тэми',
-                imageSrc: './assets/4/start.JPG',
+                imageSrc: '/assets/4/start.JPG',
             }
         },
         {
@@ -153,7 +153,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Конец Старой Тэми',
-                imageSrc: './assets/4/end.JPG',
+                imageSrc: '/assets/4/end.JPG',
             }
         },
         {
@@ -166,7 +166,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Старая дорога',
                 imageSrc:
-                    './assets/4/oldRoad.JPG',
+                    '/assets/4/oldRoad.JPG',
             }
         },
 //     Новая Тэмь
