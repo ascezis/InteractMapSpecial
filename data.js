@@ -1,4 +1,3 @@
-
 const markersTrack = [
         {
             geometry: {
