@@ -72,7 +72,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Жители Старой Тэми',
-                imageSrc: 'assets/old_them/citizens.JPG'
+                imageSrc: 'assets/old_them/citizens.jpg'
             }
         },
         {
