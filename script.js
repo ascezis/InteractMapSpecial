@@ -1,4 +1,4 @@
-import markersTrack from "/data.js";
+import markersTrack from "./data.js";
 
 // Запуск карты
 ymaps.ready(async () => {
