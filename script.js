@@ -19,7 +19,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №4',
-                imageSrc: 'assets/track/13.JPG'
+                imageSrc: 'assets/track/13.jpg'
             }
 
         },
@@ -92,7 +92,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Первая машина',
-                imageSrc: 'assets/old_them/firstmachine.JPG'
+                imageSrc: 'assets/old_them/firstmachine.jpg'
             }
         },
         {
@@ -102,7 +102,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Медицинский пункт',
-                imageSrc: 'assets/old_them/medicine.JPG'
+                imageSrc: 'assets/old_them/medicine.jpg'
             }
         },
         {
@@ -112,7 +112,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Школа в Старой Тэми',
-                imageSrc: 'assets/old_them/school.JPG'
+                imageSrc: 'assets/old_them/school.jpg'
             }
         },
         {
