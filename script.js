@@ -254,7 +254,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом Прасковьи А.М',
-                imageSrc:'assets/new_them/replace2d10.jpg',
+                imageSrc:'assets/new_them/replace2d10.JPG',
 
             }
             ,
@@ -269,7 +269,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом Прасковьи А.М',
-                imageSrc:'assets/new_them/yondd10.jpg',
+                imageSrc:'assets/new_them/yondd10.JPG',
 
             }
             ,
@@ -284,7 +284,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом',
-                imageSrc:'assets/new_them/replace3d8.jpg',
+                imageSrc:'assets/new_them/replace3d8.JPG',
 
             }
             ,
