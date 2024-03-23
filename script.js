@@ -165,7 +165,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Старая дорога',
                 imageSrc:
-                    'assets/4/oldRoad.JPG',
+                    'assets/4/oldRoad.jpg',
             }
         },
 //     Новая Тэмь
@@ -299,7 +299,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Захоронение №1',
-                imageSrc:'assets/new_them/cemetery1.jpg',
+                imageSrc:'assets/new_them/cemetery1.JPG',
 
             }
             ,
@@ -357,7 +357,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Улица Ленина',
-                imageSrc:'assets/new_them/lenina_end.JPG',
+                imageSrc:'assets/new_them/lenina_end.jpg',
             }
             ,
         }
