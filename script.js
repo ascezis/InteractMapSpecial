@@ -6,7 +6,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №3',
-                imageSrc: '../../assets/track/1.JPG'
+                imageSrc: './assets/track/1.JPG'
             },
             options: {
                 preset: 'islands#dotIcon' // Устанавливаем тип метки как точка
