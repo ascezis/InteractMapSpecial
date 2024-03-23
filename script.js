@@ -7,7 +7,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Зона затопления №3',
                 balloonContentBody: '<img src="./assets/track/1.JPG" alt="test" style="width: 100%; height: 100%;">',
-                imageSrc: '/assets/track/1.JPG'
+                imageSrc: 'assets/track/1.JPG'
             },
             options: {
                 preset: 'islands#dotIcon' // Устанавливаем тип метки как точка
@@ -20,7 +20,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №4',
-                imageSrc: '/assets/track/13.JPG'
+                imageSrc: 'assets/track/13.JPG'
             }
 
         },
@@ -31,7 +31,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №2',
-                 imageSrc: '/assets/track/4.JPG'
+                 imageSrc: 'assets/track/4.JPG'
             }
 
         },
@@ -42,7 +42,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №1',
-                imageSrc: '/assets/track/3.JPG'
+                imageSrc: 'assets/track/3.JPG'
             }
         },
         {
@@ -52,7 +52,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №5',
-                imageSrc: '/assets/track/10.JPG'
+                imageSrc: 'assets/track/10.JPG'
             }
         },
         //     Старая Тэмь
