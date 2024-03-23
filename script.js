@@ -62,7 +62,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Тэминцы',
-                imageSrc: '/assets/old_them/theminc.JPG'
+                imageSrc: 'assets/old_them/theminc.JPG'
             }
         },
         {
@@ -72,7 +72,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Жители Старой Тэми',
-                imageSrc: '/assets/old_them/citizens.JPG'
+                imageSrc: 'assets/old_them/citizens.JPG'
             }
         },
         {
@@ -82,7 +82,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Сельские жители',
-                imageSrc: '/assets/old_them/villages.JPG'
+                imageSrc: 'assets/old_them/villages.JPG'
             }
         },
         {
@@ -92,7 +92,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Первая машина',
-                imageSrc: '/assets/old_them/firstmachine.JPG'
+                imageSrc: 'assets/old_them/firstmachine.JPG'
             }
         },
         {
@@ -102,7 +102,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Медицинский пункт',
-                imageSrc: '/assets/old_them/medicine.JPG'
+                imageSrc: 'assets/old_them/medicine.JPG'
             }
         },
         {
@@ -112,7 +112,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Школа в Старой Тэми',
-                imageSrc: '/assets/old_them/school.JPG'
+                imageSrc: 'assets/old_them/school.JPG'
             }
         },
         {
@@ -122,7 +122,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Из жизни села',
-                imageSrc: '/assets/old_them/lifeThem.JPG'
+                imageSrc: 'assets/old_them/lifeThem.JPG'
             }
         },
         {
@@ -132,7 +132,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Дом в Старой Тэми',
-                imageSrc: '/assets/old_them/house_oldThem.JPG'
+                imageSrc: 'assets/old_them/house_oldThem.JPG'
             }
         },
         {
@@ -142,7 +142,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Начало Старой Тэми',
-                imageSrc: '/assets/4/start.JPG',
+                imageSrc: 'assets/4/start.JPG',
             }
         },
         {
@@ -152,7 +152,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Конец Старой Тэми',
-                imageSrc: '/assets/4/end.JPG',
+                imageSrc: 'assets/4/end.JPG',
             }
         },
         {
@@ -165,7 +165,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Старая дорога',
                 imageSrc:
-                    '/assets/4/oldRoad.JPG',
+                    'assets/4/oldRoad.JPG',
             }
         },
 //     Новая Тэмь
@@ -179,7 +179,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Сельский дом культуры 2',
                 imageSrc:
-                    '/assets/new_them/cultur.jpg',
+                    'assets/new_them/cultur.jpg',
             }
         }
         ,
@@ -193,7 +193,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Сельский дом культуры 1',
                 imageSrc:
-                    '/assets/new_them/culture21.jpg',
+                    'assets/new_them/culture21.jpg',
 
             }
         }
@@ -208,7 +208,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Детский сад "Светлячок"',
                 imageSrc:
-                    '/assets/new_them/kids.jpg',
+                    'assets/new_them/kids.jpg',
 
             }
             ,
@@ -224,8 +224,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Зимняя Тэмь',
                 imageSrc:
-                    '/assets/new_them/snowThem.jpg',
-
+                    'assets/new_them/snowThem.jpg',
             }
             ,
         }
@@ -240,7 +239,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Перенесённый дом',
                 imageSrc:
-                    '/assets/new_them/replace.jpg',
+                    'assets/new_them/replace.jpg',
 
             }
             ,
@@ -255,8 +254,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом Прасковьи А.М',
-                imageSrc:
-                    '/assets/new_them/replace2d10.jpg',
+                imageSrc:'assets/new_them/replace2d10.jpg',
 
             }
             ,
@@ -271,8 +269,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом Прасковьи А.М',
-                imageSrc:
-                    '/assets/new_them/yondd10.jpg',
+                imageSrc:'assets/new_them/yondd10.jpg',
 
             }
             ,
@@ -287,8 +284,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Перенесённый дом',
-                imageSrc:
-                    '/assets/new_them/replace3d8.jpg',
+                imageSrc:'assets/new_them/replace3d8.jpg',
 
             }
             ,
@@ -303,8 +299,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Захоронение №1',
-                imageSrc:
-                    '/assets/new_them/cemetery1.jpg',
+                imageSrc:'assets/new_them/cemetery1.jpg',
 
             }
             ,
@@ -319,8 +314,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Захоронение №2',
-                imageSrc:
-                    '/assets/new_them/cemetry2.JPG',
+                imageSrc:'assets/new_them/cemetry2.JPG',
             }
             ,
         }
@@ -335,8 +329,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Улица Пролетарcкая',
-                imageSrc:
-                    '/assets/new_them/proletrnaya.jpg',
+                imageSrc:'assets/new_them/proletrnaya.jpg',
             }
             ,
         }
@@ -350,7 +343,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Улица Ленина',
-                imageSrc:'/assets/new_them/lenina.jpg',
+                imageSrc:'assets/new_them/lenina.jpg',
             }
             ,
         }
@@ -364,7 +357,7 @@ const markersTrack = [
             ,
             properties: {
                 iconCaption: 'Улица Ленина',
-                imageSrc:'/assets/new_them/lenina_end.JPG',
+                imageSrc:'assets/new_them/lenina_end.JPG',
             }
             ,
         }
