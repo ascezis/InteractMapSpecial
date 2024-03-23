@@ -19,7 +19,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №4',
-                imageSrc: '../assets/track/13.JPG'
+                imageSrc: 'assets/track/13.JPG'
             }
 
         },
