@@ -7,7 +7,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Зона затопления №3',
                 balloonContentBody: '<img src="./assets/track/1.JPG" alt="test" style="width: 100%; height: 100%;">',
-                imageSrc: 'assets/track/1.JPG'
+                imageSrc: '../assets/track/1.JPG'
             },
             options: {
                 preset: 'islands#dotIcon' // Устанавливаем тип метки как точка
@@ -20,7 +20,7 @@ const markersTrack = [
             },
             properties: {
                 iconCaption: 'Зона затопления №4',
-                imageSrc: 'assets/track/13.JPG'
+                imageSrc: '../assets/track/13.JPG'
             }
 
         },
