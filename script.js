@@ -5,7 +5,7 @@ const markersTrack = [
                 coordinates: [55.327698, 100.735956],
             },
             properties: {
-                iconCaption: 'Зона затопления №3',
+                iconCaption: 'Зона затопления',
                 imageSrc: 'assets/track/1.JPG'
             },
             options: {
@@ -18,7 +18,7 @@ const markersTrack = [
                 coordinates: [55.330513, 100.743089],
             },
             properties: {
-                iconCaption: 'Зона затопления №4',
+                iconCaption: 'Зона затопления',
                 imageSrc: 'assets/track/13.jpg'
             }
 
@@ -29,7 +29,7 @@ const markersTrack = [
                 coordinates: [55.323578, 100.733365],
             },
             properties: {
-                iconCaption: 'Зона затопления №2',
+                iconCaption: 'Зона затопления',
                  imageSrc: 'assets/track/4.JPG'
             }
 
@@ -40,7 +40,7 @@ const markersTrack = [
                 coordinates: [55.319651, 100.734804],
             },
             properties: {
-                iconCaption: 'Зона затопления №1',
+                iconCaption: 'Зона затопления',
                 imageSrc: 'assets/track/3.JPG'
             }
         },
@@ -50,7 +50,7 @@ const markersTrack = [
                 coordinates: [55.333367, 100.753074],
             },
             properties: {
-                iconCaption: 'Зона затопления №5',
+                iconCaption: 'Зона затопления',
                 imageSrc: 'assets/track/10.JPG'
             }
         },
@@ -224,7 +224,7 @@ const markersTrack = [
             properties: {
                 iconCaption: 'Зимняя Тэмь',
                 imageSrc:
-                    'assets/new_them/snowThem.jpg',
+                    'assets/new_them/snowThem.JPG',
             }
             ,
         }
