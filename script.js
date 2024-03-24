@@ -61,7 +61,7 @@ const markersTrack = [
                 coordinates: [55.326557, 100.731783],
             },
             properties: {
-                iconCaption: 'Тэминцы',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/theminc.JPG'
             }
         },
@@ -71,7 +71,7 @@ const markersTrack = [
                 coordinates: [55.324532, 100.730289],
             },
             properties: {
-                iconCaption: 'Жители Старой Тэми',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/citizens.jpg'
             }
         },
@@ -81,7 +81,7 @@ const markersTrack = [
                 coordinates: [55.331088, 100.739768],
             },
             properties: {
-                iconCaption: 'Сельские жители',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/villages.JPG'
             }
         },
@@ -91,7 +91,7 @@ const markersTrack = [
                 coordinates: [55.329265, 100.735090],
             },
             properties: {
-                iconCaption: 'Первая машина',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/firstmachine.jpg'
             }
         },
@@ -101,7 +101,7 @@ const markersTrack = [
                 coordinates: [55.333422, 100.743749],
             },
             properties: {
-                iconCaption: 'Медицинский пункт',
+                iconCaption: 'Медицинский пункт в старой Тэми',
                 imageSrc: 'assets/old_them/medicine.jpg'
             }
         },
@@ -111,7 +111,7 @@ const markersTrack = [
                 coordinates: [55.335717, 100.747267],
             },
             properties: {
-                iconCaption: 'Школа в Старой Тэми',
+                iconCaption: 'Школа в старой Тэми',
                 imageSrc: 'assets/old_them/school.jpg'
             }
         },
@@ -121,7 +121,7 @@ const markersTrack = [
                 coordinates: [55.323308, 100.727296],
             },
             properties: {
-                iconCaption: 'Из жизни села',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/lifeThem.JPG'
             }
         },
@@ -131,7 +131,7 @@ const markersTrack = [
                 coordinates: [55.321295, 100.726015],
             },
             properties: {
-                iconCaption: 'Дом в Старой Тэми',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/old_them/house_oldThem.JPG'
             }
         },
@@ -141,7 +141,7 @@ const markersTrack = [
                 coordinates: [55.322347, 100.724313],
             },
             properties: {
-                iconCaption: 'Начало Старой Тэми',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/4/start.JPG',
             }
         },
@@ -151,7 +151,7 @@ const markersTrack = [
                 coordinates: [55.337836, 100.742323],
             },
             properties: {
-                iconCaption: 'Конец Старой Тэми',
+                iconCaption: 'Старая Тэмь',
                 imageSrc: 'assets/4/end.JPG',
             }
         },
@@ -159,7 +159,7 @@ const markersTrack = [
             geometry: {
                 type: "Point",
                 coordinates:
-                    [55.337437, 100.739817],
+                    [55.334690, 100.743898],
             }
             ,
             properties: {
@@ -222,7 +222,7 @@ const markersTrack = [
             }
             ,
             properties: {
-                iconCaption: 'Зимняя Тэмь',
+                iconCaption: 'Тэмь',
                 imageSrc:
                     'assets/new_them/snowThem.JPG',
             }
@@ -298,7 +298,7 @@ const markersTrack = [
             }
             ,
             properties: {
-                iconCaption: 'Захоронение №1',
+                iconCaption: 'Захоронение',
                 imageSrc:'assets/new_them/cemetery1.JPG',
 
             }
@@ -313,7 +313,7 @@ const markersTrack = [
             }
             ,
             properties: {
-                iconCaption: 'Захоронение №2',
+                iconCaption: 'Захоронение',
                 imageSrc:'assets/new_them/cemetry2.JPG',
             }
             ,
