@@ -369,8 +369,15 @@ const markersTrack = [
 ymaps.ready(async () => {
 
     let map_init = new ymaps.Map('map', {
-        center: [55.333052, 100.732638], zoom: 15
-    }, {
+        center: [55.333052, 100.732638], 
+            zoom: 15,
+            controls: [],
+            
+    },
+                                 {
+                suppressMapOpenBlock: true // скрытие условий использования
+            },
+                                 {
         searchControlProvider: 'yandex#search'
     });
     // Перебор объектов
