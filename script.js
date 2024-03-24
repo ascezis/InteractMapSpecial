@@ -365,39 +365,73 @@ const markersTrack = [
 
     ];
 
-// Запуск карты
-ymaps.ready(async () => {
+function modalWindow(imageSrc, iconCaption) {
+    const modal = document.createElement('div');
+    modal.classList.add('modal-content')
+    modal.style.position = 'fixed';
+    modal.style.top = '0';
+    modal.style.left = '0';
+    modal.style.width = '100%';
+    modal.style.height = '100%';
+    modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    modal.style.display = 'flex';
+    modal.style.justifyContent = 'center';
+    modal.style.alignItems = 'center';
 
+    const imgContainer = document.createElement('div');
+    imgContainer.style.textAlign = 'center';
+
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.style.maxWidth = '90%';
+    img.style.height = 'auto'; // Уменьшение размера изображения по ширине
+    img.style.maxHeight = '100vh'; // Ограничение высоты изображения
+
+    const caption = document.createElement('div');
+    caption.textContent = iconCaption;
+    caption.style.color = '#fff';
+    caption.style.marginTop = '2%';
+    caption.style.fontFamily = 'Consolas'
+
+    imgContainer.appendChild(img);
+    imgContainer.appendChild(caption);
+    modal.appendChild(imgContainer);
+
+    document.body.appendChild(modal);
+
+    modal.addEventListener('click', () => {
+        modal.classList.add('out'); // Добавляем класс для анимации закрытия
+        setTimeout(() => {
+            document.body.removeChild(modal);
+        }, 600); // Устанавливаем таймаут на удаление элемента после завершения анимации
+    });
+}
+
+
+
+ymaps.ready(async () => {
     let map_init = new ymaps.Map('map', {
-        center: [55.333052, 100.732638], 
-            zoom: 15,
-            controls: [],
-            
+        center: [55.333052, 100.732638],
+        zoom: 15,
+        controls: [],
     },
-                                 {
-                suppressMapOpenBlock: true // скрытие условий использования
-            },
-                                 {
+        {
+            suppressMapOpenBlock: true // скрытие условий использования
+        },
+        {
         searchControlProvider: 'yandex#search'
     });
-    // Перебор объектов
-    await markersTrack.forEach(data => {
 
+    markersTrack.forEach(data => {
         let marker = new ymaps.Placemark(data.geometry.coordinates, {
             iconCaption: data.properties.iconCaption,
-
-            // Кастомное содержимое:
-            balloonContentBody: `
-            <div>
-                <img src=${data.properties.imageSrc} alt="current" style="width: 100%; border-radius: 1%">
-                 <p style="text-align: center; font-family: Consolas">${data.properties.iconCaption}</p>
-            </div>`
-
         }, {
-            preset: 'islands#blueCircleDotIconWithCaption' // Устанавливаем тип метки как точка
-
+            preset: 'islands#blueCircleDotIconWithCaption'
         });
-        let button_press = document.getElementById('button_press');
-        map_init.geoObjects.add(marker)
+        marker.events.add('click', () => {
+            modalWindow(data.properties.imageSrc, data.properties.iconCaption);
+        });
+
+        map_init.geoObjects.add(marker);
     });
 });
