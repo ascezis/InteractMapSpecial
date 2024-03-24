@@ -177,7 +177,7 @@ const markersTrack = [
             }
             ,
             properties: {
-                iconCaption: 'Сельский дом культуры 2',
+                iconCaption: '',
                 imageSrc:
                     'assets/new_them/cultur.jpg',
             }
@@ -187,11 +187,11 @@ const markersTrack = [
             geometry: {
                 type: "Point",
                 coordinates:
-                    [55.332790, 100.729772],
+                    [55.332729, 100.729695],
             }
             ,
             properties: {
-                iconCaption: 'Сельский дом культуры 1',
+                iconCaption: 'Сельский дом культуры',
                 imageSrc:
                     'assets/new_them/culture21.jpg',
 
