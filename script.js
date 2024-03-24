@@ -382,8 +382,8 @@ ymaps.ready(async () => {
             // Кастомное содержимое:
             balloonContentBody: `
             <div>
-                <p style="text-align: center; font-family: Consolas">${data.properties.iconCaption}</p>
                 <img src=${data.properties.imageSrc} alt="current" style="width: 100%; border-radius: 1%">
+                 <p style="text-align: center; font-family: Consolas">${data.properties.iconCaption}</p>
             </div>`
 
         }, {
