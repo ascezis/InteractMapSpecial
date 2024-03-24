@@ -324,7 +324,7 @@ const markersTrack = [
             geometry: {
                 type: "Point",
                 coordinates:
-                    [55.335560, 100.741630],
+                    [55.337660, 100.735522],
             }
             ,
             properties: {
