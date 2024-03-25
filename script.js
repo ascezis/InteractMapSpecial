@@ -98,7 +98,7 @@ const markersTrack = [
         {
             geometry: {
                 type: "Point",
-                coordinates: [55.333422, 100.743749],
+                coordinates: [55.332809845047436, 100.76275834835502],
             },
             properties: {
                 iconCaption: 'Медицинский пункт в старой Тэми',
@@ -108,7 +108,7 @@ const markersTrack = [
         {
             geometry: {
                 type: "Point",
-                coordinates: [55.335717, 100.747267],
+                coordinates: [55.336667, 100.771944],
             },
             properties: {
                 iconCaption: 'Школа в старой Тэми',
